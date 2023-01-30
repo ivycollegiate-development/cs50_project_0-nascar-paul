@@ -2,11 +2,42 @@
 <html lang="en">
     <head>
         <title>Search</title>
-    </head>
-    <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q"
-            <input type="submit" value="Google Search"
-        </form>
-    </body>
+        <style>
+            /* Add styling for the form */
+            form {
+                width: 500px;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+        input[type="text"] {
+            width: 60%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            width: 20%;
+            padding: 12px 20px;
+            background-color: #4CAF50;
+            color: white;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="Enter your search query">
+        <br><br>
+        <input type="submit" value="Google Search">
+        <input type="submit" value="Google Image Search" onclick="location.href='https://www.google.com/search?tbm=isch&q='+document.querySelector('input[name=\'q\']').value;return false;">
+        <input type="submit" value="Google Advanced Search" onclick="location.href='https://www.google.com/advanced_search?q='+document.querySelector('input[name=\'q\']').value;return false;">
+    </form>
+</body>
 </html>
