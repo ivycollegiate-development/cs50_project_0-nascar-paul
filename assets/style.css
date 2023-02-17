@@ -16,11 +16,17 @@ body {
 
 .searchicon {
     object-fit: contain;
-    
 }
 
 .search {
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
+    min-width: 16vw;
+}
+
+.searchbar {
+    display: flex;
+    align: center;
+    border: 1px solid lightgrey;
+    margin: 0 auto;
 }
