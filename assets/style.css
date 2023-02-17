@@ -14,3 +14,13 @@ body {
  font-size: 15px
 }
 
+.searchicon {
+    object-fit: contain;
+    
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    
+}
