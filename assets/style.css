@@ -14,14 +14,16 @@ body {
  font-size: 15px
 }
 
-.searchicon {
-    object-fit: contain;
+.searchicon img {
+    max-width: 50%;
+    align: center;
 }
 
 .search {
     display: flex;
-    align-items: center; 
+    align: center; 
     min-width: 16vw;
+    padding-left: 5%;
 }
 
 .searchbar {
@@ -29,4 +31,14 @@ body {
     align: center;
     border: 1px solid lightgrey;
     margin: 0 auto;
+    height: 30px;
+    padding: 10px 20px;
+    width: 75vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 560px;
+}
+
+.textsearch {
+    outline: none;
 }
