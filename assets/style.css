@@ -57,7 +57,8 @@ body {
     border-radius: 999px;
 }
 
-.textinput input[type="text"] {
+.textinput > input {
+    flex-grow: 1;
     border: none;
     outline: none;
 }
@@ -68,4 +69,8 @@ body {
     outline: none;
     border: none;
 }
-  
+
+button {
+    background-color: light grey;
+
+}
