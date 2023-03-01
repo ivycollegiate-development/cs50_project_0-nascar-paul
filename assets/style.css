@@ -6,6 +6,8 @@ body {
     margin: 0;
     font-family: arial, sans-serif;
     font-size: 0.9em;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 a {
@@ -21,7 +23,7 @@ a:hover {
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh
+    height: 100vh;
 }
 /* Header */
 .header {
@@ -40,7 +42,6 @@ body {
 
 .search {
     display: flex;
-    align: center; 
     min-width: 16vw;
     padding-left: 5%;
 }
@@ -58,7 +59,6 @@ body {
 }
 
 .textinput > input {
-    flex-grow: 1;
     border: none;
     outline: none;
 }
@@ -77,5 +77,5 @@ button {
     background-color: #f9f8fa;
     border-radius: 5px;
     margin-top: 10px;
-
 }
+
