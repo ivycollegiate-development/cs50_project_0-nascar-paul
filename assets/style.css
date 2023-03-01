@@ -58,7 +58,7 @@ body {
     border-radius: 999px;
 }
 
-.textinput > input {
+.textinput > form{
     border: none;
     outline: none;
 }
@@ -79,3 +79,8 @@ button {
     margin-top: 10px;
 }
 
+.footer {
+    background-color: lightgrey;
+    font-family: arial, sans-serif;
+    font-size: 0.9em;
+}
