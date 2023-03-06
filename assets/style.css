@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: arial, sans-serif;
+    font-family: serif, sans-serif;
     font-size: 0.9em;
     flex-direction: column;
     justify-content: space-between;
@@ -83,4 +83,11 @@ button {
     background-color: lightgrey;
     font-family: arial, sans-serif;
     font-size: 0.9em;
+    width: 100%;
+}
+
+.footer_row_1_left {
+    
+    float: right;
+
 }
