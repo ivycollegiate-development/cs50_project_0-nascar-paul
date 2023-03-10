@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: serif, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     font-size: 0.9em;
     flex-direction: column;
     justify-content: space-between;
@@ -58,7 +58,7 @@ body {
     border-radius: 999px;
 }
 
-.textinput > form{
+.textinput > textinput {
     border: none;
     outline: none;
 }
@@ -81,7 +81,7 @@ button {
 
 .footer {
     background-color: lightgrey;
-    font-family: arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     font-size: 0.9em;
     width: 100%;
 }
