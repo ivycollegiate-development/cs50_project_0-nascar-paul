@@ -3,7 +3,6 @@
 }
 
 body {
-    margin: 0;
     font-family: Roboto, Arial, sans-serif;
     font-size: 0.9em;
     flex-direction: column;
@@ -26,6 +25,7 @@ body {
     height: 100vh;
 }
 /* Header */
+
 .header {
  display: flex;
  justify-content: space-between; 
@@ -58,7 +58,12 @@ body {
     border-radius: 999px;
 }
 
-.textinput > textinput {
+.form {
+    text-align: center;
+
+}
+
+.textinput  {
     border: none;
     outline: none;
 }
