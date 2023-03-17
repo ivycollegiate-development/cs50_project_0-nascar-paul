@@ -1,11 +1,15 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: #fff
 }
 
 body {
-    font-family: Roboto, Arial, sans-serif;
+    font-family: "Product Sans", Arial, sans-serif;
     font-size: 0.9em;
-    flex-direction: column;
     justify-content: space-between;
 }
 
